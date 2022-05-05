@@ -266,7 +266,7 @@ kubectl annotate no [node_name]
 ```
 # Adding Resources
 ```
-Creatinga Pod
+Creating a Pod
 
 kubectl create -f [name_of_file]
 kubectl apply -f [name_of_file]
