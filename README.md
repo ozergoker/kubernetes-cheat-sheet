@@ -11,6 +11,7 @@ across infrastructure providers.
 
 kubectl controls the Kubernetes cluster manager.
 
+```
 Basic Commands (Beginner):
 
   create        Create a resource from a file or from stdin
