@@ -2,11 +2,11 @@
 ![image](https://github.com/ozergoker/kubernetes-cheat-sheet/blob/main/kubernetes.png)
 
 
-## What is Kubernetes ?
+# What is Kubernetes ?
 
 Kubernetes is a platform for managing containerized workloads. Kubernetes orchestrates computing, networking and storage to provide a seamless portability across infrastructure providers.
 
-What is kubectl ?
+# What is kubectl ?
 
 kubectl controls the Kubernetes cluster manager.
 
@@ -73,7 +73,7 @@ Usage:
 
 
 
-##Viewing Resource Information
+# Viewing Resource Information
 
 Nodes
 
