@@ -13,7 +13,7 @@ kubectl controls the Kubernetes cluster manager.
 
 Basic Commands (Beginner):
 
-  create        Create a resource from a file or from stdin\n
+  create        Create a resource from a file or from stdin
   expose        Take a replication controller, service, deployment or pod and expose it as a new Kubernetes service
   run           Run a particular image on the cluster
   set           Set specific features on objects
