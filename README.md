@@ -311,3 +311,4 @@ kubectl cluster-info
 kubectl get componentstatuses
 
 
+
