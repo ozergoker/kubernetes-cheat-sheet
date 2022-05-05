@@ -11,6 +11,7 @@ across infrastructure providers.
 
 kubectl controls the Kubernetes cluster manager.
 
+
 ```
 Basic Commands (Beginner):
 
@@ -267,8 +268,8 @@ kubectl annotate no [node_name]
 ```
 Creatinga Pod
 
-kubectl create -f [name_of_f i l e]
-kubectl apply -f [name_of_f i l e]
+kubectl create -f [name_of_file]
+kubectl apply -f [name_of_file]
 kubectl run [pod_name] --image=nginx --restart=Never
 kubectl run [pod_name] --generator=run-pod/v1 --image=nginx
 kubectl run [pod_name] --image=nginx --restart =Never
