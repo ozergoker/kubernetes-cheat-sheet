@@ -12,23 +12,27 @@ across infrastructure providers.
 kubectl controls the Kubernetes cluster manager.
 
 Basic Commands (Beginner):
+
   create        Create a resource from a file or from stdin
   expose        Take a replication controller, service, deployment or pod and expose it as a new Kubernetes service
   run           Run a particular image on the cluster
   set           Set specific features on objects
 
 Basic Commands (Intermediate):
+
   explain       Get documentation for a resource
   get           Display one or many resources
   edit          Edit a resource on the server
   delete        Delete resources by file names, stdin, resources and names, or by resources and label selector
 
 Deploy Commands:
+
   rollout       Manage the rollout of a resource
   scale         Set a new size for a deployment, replica set, or replication controller
   autoscale     Auto-scale a deployment, replica set, stateful set, or replication controller
 
 Cluster Management Commands:
+
   certificate   Modify certificate resources.
   cluster-info  Display cluster information
   top           Display resource (CPU/memory) usage
@@ -38,6 +42,7 @@ Cluster Management Commands:
   taint         Update the taints on one or more nodes
 
 Troubleshooting and Debugging Commands:
+
   describe      Show details of a specific resource or group of resources
   logs          Print the logs for a container in a pod
   attach        Attach to a running container
@@ -49,6 +54,7 @@ Troubleshooting and Debugging Commands:
   debug         Create debugging sessions for troubleshooting workloads and nodes
 
 Advanced Commands:
+
   diff          Diff the live version against a would-be applied version
   apply         Apply a configuration to a resource by file name or stdin
   patch         Update fields of a resource
@@ -57,11 +63,13 @@ Advanced Commands:
   kustomize     Build a kustomization target from a directory or URL.
 
 Settings Commands:
+
   label         Update the labels on a resource
   annotate      Update the annotations on a resource
   completion    Output shell completion code for the specified shell (bash, zsh or fish)
 
 Other Commands:
+
   alpha         Commands for features in alpha
   api-resources Print the supported API resources on the server
   api-versions  Print the supported API versions on the server, in the form of "group/version"
