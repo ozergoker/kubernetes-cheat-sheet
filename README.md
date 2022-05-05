@@ -81,10 +81,10 @@ Other Commands:
 Usage:
   kubectl [flags] [options]
 
-
+```
 
 # Viewing Resource Information
-
+```
 Nodes
 
 kubectl get no
@@ -206,9 +206,9 @@ kubectl get svc, po
 kubectl get deploy, no
 kubectl get all
 kubectl get all --all-namespaces
-
+```
 # Changing Resource Attributes
-
+```
 Taint
 
 kubectl taint [node_name] [taint_name]
@@ -262,9 +262,9 @@ Annotate
 
 kubectl annotate po [pod_name] [annotation]
 kubectl annotate no [node_name]
-
+```
 # Adding Resources
-
+```
 Creatinga Pod
 
 kubectl create -f [name_of_f i l e]
@@ -298,9 +298,9 @@ kubectl -h
 kubectl create -h
 kubectl run -h
 kubectl explain deploy.spec
-
+```
 # Requests
-
+```
 API Call
 
 kubectl get --raw /apis/metrics.k8s.io/
