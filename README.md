@@ -197,7 +197,7 @@ kubectl get deploy, no
 kubectl get all
 kubectl get all --all-namespaces
 
-##Changing Resource Attributes
+# Changing Resource Attributes
 
 Taint
 
@@ -253,7 +253,7 @@ Annotate
 kubectl annotate po [pod_name] [annotation]
 kubectl annotate no [node_name]
 
-##Adding Resources
+# Adding Resources
 
 Creatinga Pod
 
@@ -289,7 +289,7 @@ kubectl create -h
 kubectl run -h
 kubectl explain deploy.spec
 
-##Requests
+# Requests
 
 API Call
 
